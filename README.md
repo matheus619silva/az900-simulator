@@ -1,16 +1,44 @@
-# React + Vite
+# AZ-900 Practice Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simulador interativo para estudo da certificação **Microsoft Azure Fundamentals (AZ-900)**.
 
-Currently, two official plugins are available:
+## 📚 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido para praticar conceitos de computação em nuvem e ajudar no preparo para o exame AZ-900.
 
-## React Compiler
+O simulador apresenta perguntas de múltipla escolha e calcula automaticamente a pontuação final do usuário.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Funcionalidades
+
+- Simulado com perguntas sobre Azure
+- Seleção de respostas
+- Feedback de resposta correta/incorreta
+- Barra de progresso
+- Cálculo de pontuação final
+- Interface simples e interativa
+
+## ▶️ Como executar o projeto
+
+Clone o repositório:
+
+git clone https://github.com/matheus619silva/az900-simulator.git
+
+Entre na pasta:
+
+cd az900-simulator
+
+Instale dependências:
+
+npm install
+
+Execute o projeto:
+
+npm run dev
